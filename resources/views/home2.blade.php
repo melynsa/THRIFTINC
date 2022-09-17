@@ -23,6 +23,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><img class="img-fluid " src="/img/bag2.png" style="height: 40px"></a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="/thriftinc">Logout</a></li>
                     </ul>
@@ -36,9 +37,9 @@
                 <div class="container px-5">
                     
                     <!-- <img src="/img/img.jpeg" style="width:2000px;height:1500px;"> -->
-                    <h1 class="masthead-heading mb-0 text-light">The thrift lovers’ thrift stores</h1>
-                    <h2 class="masthead-subheading mb-0 text-light">For all your thrift needs</h2>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+                    <h1 class="masthead-heading mb-0 text-light">THRIFTINC</h1>
+                    <h2 class="masthead-subheading mb-0 text-light">Welcome thrift buddies!</h2>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Catalog</a>
                 </div>
             </div>
             <!-- <div class="bg-circle-1 bg-circle"></div>
@@ -51,12 +52,11 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="/img/model5.jpg" alt="..." /></div>
+                        <div class="p-5"><a href="/catalogwoman"><img class="img-fluid rounded-circle" src="/img/model5.jpg"   alt="..." /></a></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="text p-5">
-                            <h2 class="display-4">Secondhand is a wise investment</h2>
-                            <p>Appearance and dressing are important for gaining self-confidence and being attractive. People judge each other by first sight. A well-groomed individual gives a different first impression than an unkempt one. Our overall dressing is what others will see first when they meet. It is important to convey who we are through many means including our personal sense of style.</p>
+                            <h2 class="display-4">Women's Catalog</h2>
                         </div>
                     </div>
                 </div>
@@ -67,12 +67,11 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="/img/model3.jpg" alt="..." /></div>
+                        <div class="p-5"><a href="/catalogman"><img class="img-fluid rounded-circle" src="/img/cowok.jpg"   alt="..." /></a></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="text p-5">
-                            <h2 class="display-4">you’ve added to our stock.</h2>
-                            <p>All our website items are hand selected for their quality and style. We only select the best vintage items, removing all torn or marked items from the system; any errors at all will be photographed and detailed in the description. We sell only authentic vintage pieces and original brands, no fakes ever.</p>
+                            <h2 class="display-4">Man's Catalog</h2>
                         </div>
                     </div>
                 </div>
@@ -83,14 +82,11 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="/img/model4.jpg" alt="..." /></div>
+                        <div class="p-5"><a href="/catalogAccessories"><img class="img-fluid rounded-circle" src="/img/glassess.jpg"   alt="..." /></a></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="text p-5">
-                            <h2 class="display-4">Old is the new</h2>
-                            <p>No need for expensive clothes or fancy brands. Looks and appearance aren't everything, but self-expression through fashion will certainly add some fun and sparkle to your life.
-
-.</p>
+                            <h2 class="display-4">Accessories</h2>
                         </div>
                     </div>
                 </div>
@@ -98,7 +94,7 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-black">
-            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2022</p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white small">Thriftinc</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -608,6 +608,8 @@ progress {
   height: auto;
 }
 
+
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4040,6 +4042,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  height: 65px;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -7847,7 +7850,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #CDBBA7 !important;
 }
 
 .bg-black {
@@ -7945,6 +7948,7 @@ textarea.form-control-lg {
 .rounded-circle {
   border-radius: 50% !important;
 }
+
 
 .rounded-pill {
   border-radius: 50rem !important;

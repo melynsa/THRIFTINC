@@ -33,5 +33,27 @@ Route::get('/home2', function () {
     return view('home2');
 });
 
+Route::get('/katalog', function () {
+    return view('katalog');
+});
 
+Route::get('/forget', function () {
+    return view('forgotpass');
+});
+
+Route::get('/confirmPassword', function () {
+    return view('forgotpass2');
+});
+
+Route::get('/catalogwoman', function () {
+    return view('catalogwoman');
+});
+
+Route::get('/catalogman', function () {
+    return view('catalogman');
+});
+
+Route::get('/catalogAccessories', function () {
+    return view('catalogAccessories');
+});
 
