@@ -3781,7 +3781,6 @@ textarea.form-control-lg {
 }
 .dropdown-item:hover, .dropdown-item:focus {
   color: #1e2125;
-  background-color: #e9ecef;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
@@ -3869,16 +3868,17 @@ textarea.form-control-lg {
 }
 
 .btn-toolbar {
+  background-color: #e9ecef;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-}
-.btn-toolbar .input-group {
-  width: auto;
+  .btn-toolbar .input-group {
+    width: auto;
 }
 
 .btn-group > .btn:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
+}
   margin-left: -1px;
 }
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
@@ -11395,3 +11395,196 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  
+  .bg-grey {
+  background-color: #eae8e8;
+  }
+  
+  @media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  }
+  }
+  
+  @media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  }
+  }
+
+  #about{
+    margin-top: 195px;
+    font-size: 40%;
+  }
+
+  #contact{
+    margin-bottom: 125px;
+  }
+  
+  #about h2{
+    font-size: 600%;
+  }
+
+  #about .lead{
+    font-size: 400%;
+  }
+
+  #services .lead{
+    font-size: 150%;
+    font-style: ;
+  }
+
+  #contact .lead{
+    font-size: 150%;
+    font-style: ;
+  }
+
+
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #CDBBA7;
+    
+  
+    }
+
+    .gradient-custom-2 {
+      /* fallback for old browsers */
+      background: #CDBBA7;
+      
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+      
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: #CDBBA7
+      }
+      
+      #progressbar-1 {
+      color:black;
+      }
+      
+      #progressbar-1 li {
+      list-style-type: none;
+      font-size: 13px;
+      width: 33.33%;
+      float: left;
+      position: relative;
+      }
+      
+      #progressbar-1 #step1:before {
+      content: "1";
+      color: #fff;
+      width: 29px;
+      margin-left: 22px;
+      padding-left: 11px;
+      }
+      
+      #progressbar-1 #step2:before {
+      content: "2";
+      color: #fff;
+      width: 29px;
+      }
+      
+      #progressbar-1 #step3:before {
+      content: "3";
+      color: #fff;
+      width: 29px;
+      margin-right: 22px;
+      text-align: center;
+      }
+
+      #progressbar-1 #step4:before {
+        content: "3";
+        color: #fff;
+        width: 29px;
+        margin-right: 22px;
+        text-align: center;
+        }
+  
+
+      #progressbar-1 li:before {
+      line-height: 29px;
+      display: block;
+      font-size: 12px;
+      background: black;
+      border-radius: 50%;
+      margin: auto;
+      }
+      
+      #progressbar-1 li:after {
+      content: '';
+      width: 121%;
+      height: 2px;
+      background:black;
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      top: 15px;
+      z-index: -1;
+      }
+      
+      #progressbar-1 li:nth-child(2):after {
+      left: 10%
+      width: %
+      }
+      
+      #progressbar-1 li:nth-child(1):after {
+      left: 25%;
+      width: 100%
+      }
+      
+      #progressbar-1 li:nth-child(3):after {
+      left: -50%;
+      width: 125%;
+      }
+      
+      #progressbar-1 li.active:before,
+      #progressbar-1 li.active:after 
+{
+      background: #CDBBA7;
+      }
+      
+      .card-stepper {
+      z-index: 0
+      }
+
+  .detail {
+    font-size:170%;
+  }
+
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #CDBBA7;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: #CDBBA7;
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: white
+  }
+
+  .list-history .text-left{
+    margin-left: 8%;
+    margin-right: 7%;
+  }
+
+
+  

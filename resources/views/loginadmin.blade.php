@@ -33,7 +33,7 @@
 
                   <div class="d-flex align-items-center mb-3 pb-1"> 
                     <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
-                    <span class="h1 fw-bold mb-0">Log In</span>
+                    <span class="h1 fw-bold mb-0">Log In as Admin</span>
                   </div>
 
                   <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
@@ -49,17 +49,14 @@
                   </div>
 
                   <div class="pt-1 mb-4">
-                  <a class="btn btn-dark btn-lg btn-block" href="/home2" type="button=">Log In </a>
+                  <a class="btn btn-dark btn-lg btn-block" href="/homeadmin" type="button=">Log In </a>
                   </div>
 
 
                   <a class="small text-muted" href="/forget">Forgot password?</a>
-
-                  <a class="small text-muted" href="/forget"></a>
-                  <div class="pt-1 mb-4">
-                  <a class="small text-muted" href="/loginadmin">Login as admin</a>
-                  </div>
                   <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="/signup"
+                 
+
                       style="color: #393f81;">Register here</a></p>
                   <a href="#!" class="small text-muted">Terms of use.</a>
                   <a href="#!" class="small text-muted">Privacy policy</a>
